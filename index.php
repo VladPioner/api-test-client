@@ -1,5 +1,4 @@
 <?php
-function debug($arr){echo "<pre>".print_r($arr,true)."</pre>";}
 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
     if(isset($_POST['sbm'])){
